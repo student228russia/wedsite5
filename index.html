@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Калькулятор стоимости</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Калькулятор стоимости</h1>
+    </header>
+    <div id="calculator">
+        <form>
+            <label>
+                Введите цену товара:
+                <input name="field1" type="text" required>
+            </label><br>
+            <label>
+                Введите количество товара:
+                <input name="field2" type="text" required>
+            </label><br>
+            Ответ:
+            <input name="field3" id="answer" type="text" value="">
+            <button id="button1" onclick="return click1();">OK</button>
+        </form>
+    </div>
+</body>
+
+</html>
